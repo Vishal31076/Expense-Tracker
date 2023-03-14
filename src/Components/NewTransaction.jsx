@@ -29,7 +29,7 @@ export default function NewTransaction({setTransactions}) {
 
       <Typography variant = "h5">New Transaction</Typography>
       <TextField id="outlined-basic" label="Expense" variant="outlined"  onChange={(e) => setText(e.target.value)}/>
-      <TextField id="outlined-basic" label="Ammount" variant="outlined"  onChange={(e) => setAmount(e.target.value)} />
+      <TextField id="outlined-basic" label="Amount" variant="outlined"  onChange={(e) => setAmount(e.target.value)} />
       <Button  variant="contained" onClick={() =>addTransaction()}>Add Transaction</Button>
 
     </Container>
